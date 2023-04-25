@@ -18,7 +18,7 @@ const Header = () => {
     const router = useRouter()
 
     return (
-        <div className="relative px-[24px] md:px-[72px] flex flex-row h-[112px] md:justify-between w-full z-10 bg-zulalu-darkBase items-center">
+        <div className="relative px-[24px] md:px-[82px] flex flex-row h-[112px] md:justify-between w-full z-10 bg-zulalu-darkBase items-center">
             {!userInfo && loadingPassport.step !== 0 && (
                 <PassportLoadingModal loadingPassport={loadingPassport} errorPassport={errorPassport} />
             )}
